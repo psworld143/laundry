@@ -59,6 +59,10 @@ $pageTitle = 'Our Services - LaundryPro';
                     <span>Fast & Reliable</span>
                 </div>
                 <div class="flex items-center">
+                    <i class="fas fa-truck mr-2"></i>
+                    <span>Pickup & Delivery</span>
+                </div>
+                <div class="flex items-center">
                     <i class="fas fa-shield-alt mr-2"></i>
                     <span>Quality Guaranteed</span>
                 </div>
@@ -95,6 +99,7 @@ $pageTitle = 'Our Services - LaundryPro';
             'dry_clean' => ['label' => 'Dry Cleaning', 'icon' => 'fa-wind', 'emoji' => '👔', 'color' => 'purple'],
             'ironing' => ['label' => 'Ironing', 'icon' => 'fa-fire', 'emoji' => '👕', 'color' => 'orange'],
             'express' => ['label' => 'Express', 'icon' => 'fa-bolt', 'emoji' => '⚡', 'color' => 'yellow'],
+            'pickup_delivery' => ['label' => 'Pickup & Delivery', 'icon' => 'fa-truck', 'emoji' => '🚚', 'color' => 'green'],
         ];
         
         foreach ($servicesByType as $type => $typeServices): 
@@ -178,6 +183,13 @@ $pageTitle = 'Our Services - LaundryPro';
                     </div>
                     <h3 class="text-2xl font-bold text-gray-800 mb-4">Fast Service</h3>
                     <p class="text-gray-600 text-lg">Quick turnaround times without compromising quality. Most services completed within 24 hours.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-truck text-green-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Convenient Pickup</h3>
+                    <p class="text-gray-600 text-lg">We offer pickup and delivery services right to your doorstep. Schedule at your convenience.</p>
                 </div>
                 <div class="text-center">
                     <div class="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">

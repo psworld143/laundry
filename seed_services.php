@@ -59,6 +59,14 @@ $services = [
         'estimated_duration' => 12,
         'is_active' => 1
     ],
+    [
+        'service_name' => 'Pickup & Delivery',
+        'service_type' => 'pickup_delivery',
+        'description' => 'Convenient pickup and delivery service for all your laundry needs. We collect from your location and deliver back to your doorstep.',
+        'base_price' => 50.00,
+        'estimated_duration' => 48,
+        'is_active' => 1
+    ],
         [
         'service_name' => 'Bedding & Linens',
         'service_type' => 'wash_fold',
@@ -156,13 +164,15 @@ try {
                             'wash_fold' => 'fa-tshirt',
                             'dry_clean' => 'fa-wind',
                             'ironing' => 'fa-fire',
-                            'express' => 'fa-bolt'
+                            'express' => 'fa-bolt',
+                            'pickup_delivery' => 'fa-truck'
                         ];
                         $colors = [
                             'wash_fold' => 'blue',
                             'dry_clean' => 'purple',
                             'ironing' => 'orange',
-                            'express' => 'yellow'
+                            'express' => 'yellow',
+                            'pickup_delivery' => 'green'
                         ];
                         $icon = $icons[$service['service_type']] ?? 'fa-tag';
                         $color = $colors[$service['service_type']] ?? 'gray';
