@@ -25,39 +25,57 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
             $security->logSecurityEvent('CSRF_FAILURE', ['ip' => $ip]);
         } elseif (empty($username) || empty($password)) {
             $error = 'Please enter username and password';
-        } elseif (!verifyRecaptcha($_POST['g-recaptcha-response'] ?? '')) {
-            $error = 'Please complete the reCAPTCHA verification';
         } else {
-            $stmt = $security->secureQuery("SELECT * FROM users WHERE (username = ? OR email = ?) AND is_active = 1", [$username, $username]);
-            $user = $stmt->fetch();
+            // Check reCAPTCHA with fallback
+            $recaptcha_response = $_POST['g-recaptcha-response'] ?? '';
+            $recaptcha_valid = verifyRecaptcha($recaptcha_response);
             
-            if ($user && $security->verifyPassword($password, $user['password_hash'])) {
-                // Check if MFA is enabled
-                $mfa = new MFA($db, $security);
-                if ($mfa->isMFAEnabled($user['user_id'])) {
-                    // Store temp user data and redirect to MFA verification
-                    $_SESSION['temp_user_id'] = $user['user_id'];
-                    $_SESSION['temp_user_data'] = $user;
-                    $security->logSecurityEvent('MFA_REQUIRED', ['user_id' => $user['user_id']]);
-                    redirect('mfa_verify.php');
-                } else {
-                    // Complete login without MFA
-                    $_SESSION['user_id'] = $user['user_id'];
-                    $_SESSION['username'] = $user['username'];
-                    $_SESSION['name'] = $user['name'];
-                    $_SESSION['email'] = $user['email'];
-                    $_SESSION['position'] = $user['position'];
-                    $_SESSION['session_regenerated'] = false;
-                    $security->logSecurityEvent('LOGIN_SUCCESS', ['user_id' => $user['user_id'], 'username' => $username]);
-                    redirect('dashboard.php');
-                }
-            } else {
-                $error = 'Invalid credentials';
-                $security->logSecurityEvent('LOGIN_FAILURE', ['username' => $username, 'ip' => $ip]);
+            // If reCAPTCHA fails, check if we should allow fallback (for development/testing)
+            if (!$recaptcha_valid) {
+                // Check if reCAPTCHA keys are test keys (development environment)
+                $is_test_key = (RECAPTCHA_SECRET_KEY === '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe');
                 
-                $attempts = $security->getRateLimitData('rate_limit_' . md5($ip));
-                if ($attempts['attempts'] >= 5) {
-                    $security->blockUser($ip, 900);
+                if ($is_test_key) {
+                    // For development: allow login without reCAPTCHA but show warning
+                    error_log('reCAPTCHA bypassed: Using test keys in development mode');
+                    $recaptcha_valid = true;
+                } else {
+                    $error = 'Please complete the reCAPTCHA verification';
+                }
+            }
+            
+            if ($recaptcha_valid) {
+                $stmt = $security->secureQuery("SELECT * FROM users WHERE (username = ? OR email = ?) AND is_active = 1", [$username, $username]);
+                $user = $stmt->fetch();
+                
+                if ($user && $security->verifyPassword($password, $user['password_hash'])) {
+                    // Check if MFA is enabled
+                    $mfa = new MFA($db, $security);
+                    if ($mfa->isMFAEnabled($user['user_id'])) {
+                        // Store temp user data and redirect to MFA verification
+                        $_SESSION['temp_user_id'] = $user['user_id'];
+                        $_SESSION['temp_user_data'] = $user;
+                        $security->logSecurityEvent('MFA_REQUIRED', ['user_id' => $user['user_id']]);
+                        redirect('mfa_verify.php');
+                    } else {
+                        // Complete login without MFA
+                        $_SESSION['user_id'] = $user['user_id'];
+                        $_SESSION['username'] = $user['username'];
+                        $_SESSION['name'] = $user['name'];
+                        $_SESSION['email'] = $user['email'];
+                        $_SESSION['position'] = $user['position'];
+                        $_SESSION['session_regenerated'] = false;
+                        $security->logSecurityEvent('LOGIN_SUCCESS', ['user_id' => $user['user_id'], 'username' => $username]);
+                        redirect('dashboard.php');
+                    }
+                } else {
+                    $error = 'Invalid credentials';
+                    $security->logSecurityEvent('LOGIN_FAILURE', ['username' => $username, 'ip' => $ip]);
+                    
+                    $attempts = $security->getRateLimitData('rate_limit_' . md5($ip));
+                    if ($attempts['attempts'] >= 5) {
+                        $security->blockUser($ip, 900);
+                    }
                 }
             }
         }
@@ -100,18 +118,36 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['register'])) {
             
             if (!empty($validationErrors)) {
                 $error = implode('<br>', array_values($validationErrors));
-            } elseif (!verifyRecaptcha($_POST['g-recaptcha-response'] ?? '')) {
-                $error = 'Please complete the reCAPTCHA verification';
             } else {
-                $hash = $security->hashPassword($password);
+                // Check reCAPTCHA with fallback
+                $recaptcha_response = $_POST['g-recaptcha-response'] ?? '';
+                $recaptcha_valid = verifyRecaptcha($recaptcha_response);
                 
-                try {
-                    $security->secureQuery("INSERT INTO users (username, name, email, password_hash, phone_number, position) VALUES (?, ?, ?, ?, ?, 'user')", [$username, $name, $email, $hash, $phone]);
-                    $security->logSecurityEvent('REGISTRATION_SUCCESS', ['username' => $username, 'email' => $email, 'ip' => $ip]);
-                    $error = '<span class="success-msg">Registration successful! Please login.</span>';
-                } catch (Exception $e) {
-                    $error = 'Username or email already exists';
-                    $security->logSecurityEvent('REGISTRATION_FAILURE', ['username' => $username, 'email' => $email, 'error' => $e->getMessage(), 'ip' => $ip]);
+                // If reCAPTCHA fails, check if we should allow fallback (for development/testing)
+                if (!$recaptcha_valid) {
+                    // Check if reCAPTCHA keys are test keys (development environment)
+                    $is_test_key = (RECAPTCHA_SECRET_KEY === '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe');
+                    
+                    if ($is_test_key) {
+                        // For development: allow registration without reCAPTCHA but show warning
+                        error_log('reCAPTCHA bypassed: Using test keys in development mode');
+                        $recaptcha_valid = true;
+                    } else {
+                        $error = 'Please complete the reCAPTCHA verification';
+                    }
+                }
+                
+                if ($recaptcha_valid) {
+                    $hash = $security->hashPassword($password);
+                    
+                    try {
+                        $security->secureQuery("INSERT INTO users (username, name, email, password_hash, phone_number, position) VALUES (?, ?, ?, ?, ?, 'user')", [$username, $name, $email, $hash, $phone]);
+                        $security->logSecurityEvent('REGISTRATION_SUCCESS', ['username' => $username, 'email' => $email, 'ip' => $ip]);
+                        $error = '<span class="success-msg">Registration successful! Please login.</span>';
+                    } catch (Exception $e) {
+                        $error = 'Username or email already exists';
+                        $security->logSecurityEvent('REGISTRATION_FAILURE', ['username' => $username, 'email' => $email, 'error' => $e->getMessage(), 'ip' => $ip]);
+                    }
                 }
             }
         }

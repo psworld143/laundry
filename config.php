@@ -92,10 +92,44 @@ function verifyRecaptcha($response) {
     $recaptcha_secret = RECAPTCHA_SECRET_KEY;
     $recaptcha_response = $response;
     
-    $response_data = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+    // Add remote IP for better validation
+    $remote_ip = $_SERVER['REMOTE_ADDR'] ?? '';
+    
+    // Prepare the request data
+    $data = [
+        'secret' => $recaptcha_secret,
+        'response' => $recaptcha_response,
+        'remoteip' => $remote_ip
+    ];
+    
+    // Use POST request with context options for better reliability
+    $options = [
+        'http' => [
+            'header' => "Content-type: application/x-www-form-urlencoded\r\n",
+            'method' => 'POST',
+            'content' => http_build_query($data),
+            'timeout' => 10
+        ]
+    ];
+    
+    $context = stream_context_create($options);
+    $response_data = file_get_contents($recaptcha_url, false, $context);
+    
+    if ($response_data === false) {
+        // Log error if needed
+        error_log('reCAPTCHA verification failed: Unable to contact Google servers');
+        return false;
+    }
+    
     $response_keys = json_decode($response_data, true);
     
-    return isset($response_keys['success']) && $response_keys['success'] === true;
+    // Check if verification was successful
+    $success = isset($response_keys['success']) && $response_keys['success'] === true;
+    
+    // Log verification attempts for debugging
+    error_log('reCAPTCHA verification: ' . ($success ? 'SUCCESS' : 'FAILED'));
+    
+    return $success;
 }
 ?>
 
