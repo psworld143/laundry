@@ -159,3 +159,58 @@ Stack trace:
 [02-Mar-2026 05:10:58 UTC] Database error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mfa_enabled' in 'field list'
 [02-Mar-2026 05:10:58 UTC] MFA column not found, assuming MFA disabled: Database operation failed
 [02-Mar-2026 05:10:58 UTC] Security Event: {"timestamp":"2026-03-02 05:10:58","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":17,"event":"LOGIN_SUCCESS","details":{"user_id":17,"username":"admin"}}
+[02-Mar-2026 05:18:03 UTC] Database error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.rate_limit_whitelist' doesn't exist
+[02-Mar-2026 05:18:03 UTC] Database error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.rate_limits' doesn't exist
+[02-Mar-2026 05:18:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function RateLimiter::addRequest(), 1 passed in C:\wamp64\www\laundry\rate_limiter.php on line 170 and exactly 2 expected in C:\wamp64\www\laundry\rate_limiter.php:141
+Stack trace:
+#0 C:\wamp64\www\laundry\rate_limiter.php(170): RateLimiter->addRequest('rate_limit_837e...')
+#1 C:\wamp64\www\laundry\rate_limiter.php(74): RateLimiter->cleanupOldEntries('rate_limit_837e...', 1772428623)
+#2 C:\wamp64\www\laundry\rate_limiter.php(41): RateLimiter->checkStandardLimit('::1', 60, 60)
+#3 C:\wamp64\www\laundry\security_middleware.php(79): RateLimiter->checkLimit('::1', 'api', '/laundry/api/cu...', 17)
+#4 C:\wamp64\www\laundry\security_middleware.php(291): applySecurityMiddleware()
+#5 C:\wamp64\www\laundry\api\customers.php(3): require_once('C:\\wamp64\\www\\l...')
+#6 {main}
+  thrown in C:\wamp64\www\laundry\rate_limiter.php on line 141
+[02-Mar-2026 05:18:03 UTC] Database error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.rate_limit_whitelist' doesn't exist
+[02-Mar-2026 05:18:03 UTC] Database error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.rate_limits' doesn't exist
+[02-Mar-2026 05:18:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function RateLimiter::addRequest(), 1 passed in C:\wamp64\www\laundry\rate_limiter.php on line 170 and exactly 2 expected in C:\wamp64\www\laundry\rate_limiter.php:141
+Stack trace:
+#0 C:\wamp64\www\laundry\rate_limiter.php(170): RateLimiter->addRequest('rate_limit_837e...')
+#1 C:\wamp64\www\laundry\rate_limiter.php(74): RateLimiter->cleanupOldEntries('rate_limit_837e...', 1772428623)
+#2 C:\wamp64\www\laundry\rate_limiter.php(41): RateLimiter->checkStandardLimit('::1', 60, 60)
+#3 C:\wamp64\www\laundry\security_middleware.php(79): RateLimiter->checkLimit('::1', 'api', '/laundry/api/ad...', 17)
+#4 C:\wamp64\www\laundry\security_middleware.php(291): applySecurityMiddleware()
+#5 C:\wamp64\www\laundry\api\admin_fabrics.php(3): require_once('C:\\wamp64\\www\\l...')
+#6 {main}
+  thrown in C:\wamp64\www\laundry\rate_limiter.php on line 141
+[02-Mar-2026 05:18:33 UTC] reCAPTCHA bypassed: Using test keys in development mode
+[02-Mar-2026 05:18:33 UTC] Database error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mfa_enabled' in 'field list'
+[02-Mar-2026 05:18:33 UTC] MFA column not found, assuming MFA disabled: Database operation failed
+[02-Mar-2026 05:18:33 UTC] Security Event: {"timestamp":"2026-03-02 05:18:33","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":23,"event":"LOGIN_SUCCESS","details":{"user_id":23,"username":"jericosorilla4@gmail.com"}}
+[02-Mar-2026 05:20:25 UTC] reCAPTCHA bypassed: Using test keys in development mode
+[02-Mar-2026 05:20:25 UTC] Database error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mfa_enabled' in 'field list'
+[02-Mar-2026 05:20:25 UTC] MFA column not found, assuming MFA disabled: Database operation failed
+[02-Mar-2026 05:20:25 UTC] Security Event: {"timestamp":"2026-03-02 05:20:25","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":23,"event":"LOGIN_SUCCESS","details":{"user_id":23,"username":"jericosorilla4@gmail.com"}}
+[02-Mar-2026 05:20:28 UTC] Database error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.rate_limit_whitelist' doesn't exist
+[02-Mar-2026 05:20:28 UTC] Database error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.rate_limits' doesn't exist
+[02-Mar-2026 05:20:28 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $first_attempt in C:\wamp64\www\laundry\rate_limiter.php:170
+Stack trace:
+#0 C:\wamp64\www\laundry\rate_limiter.php(74): RateLimiter->cleanupOldEntries('rate_limit_837e...', 1772428768)
+#1 C:\wamp64\www\laundry\rate_limiter.php(41): RateLimiter->checkStandardLimit('::1', 60, 60)
+#2 C:\wamp64\www\laundry\security_middleware.php(79): RateLimiter->checkLimit('::1', 'api', '/laundry/api/pu...', 23)
+#3 C:\wamp64\www\laundry\security_middleware.php(291): applySecurityMiddleware()
+#4 C:\wamp64\www\laundry\api\public_services.php(8): require_once('C:\\wamp64\\www\\l...')
+#5 {main}
+  thrown in C:\wamp64\www\laundry\rate_limiter.php on line 170
+[02-Mar-2026 05:24:21 UTC] Database error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.rate_limit_whitelist' doesn't exist
+[02-Mar-2026 05:24:21 UTC] Database error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.rate_limits' doesn't exist
+[02-Mar-2026 05:24:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function RateLimiter::addRequest(), 1 passed in C:\wamp64\www\laundry\rate_limiter.php on line 170 and exactly 2 expected in C:\wamp64\www\laundry\rate_limiter.php:141
+Stack trace:
+#0 C:\wamp64\www\laundry\rate_limiter.php(170): RateLimiter->addRequest('rate_limit_837e...')
+#1 C:\wamp64\www\laundry\rate_limiter.php(74): RateLimiter->cleanupOldEntries('rate_limit_837e...', 1772429001)
+#2 C:\wamp64\www\laundry\rate_limiter.php(41): RateLimiter->checkStandardLimit('::1', 60, 60)
+#3 C:\wamp64\www\laundry\security_middleware.php(79): RateLimiter->checkLimit('::1', 'api', '/laundry/api/pu...', 23)
+#4 C:\wamp64\www\laundry\security_middleware.php(291): applySecurityMiddleware()
+#5 C:\wamp64\www\laundry\api\public_services.php(8): require_once('C:\\wamp64\\www\\l...')
+#6 {main}
+  thrown in C:\wamp64\www\laundry\rate_limiter.php on line 141

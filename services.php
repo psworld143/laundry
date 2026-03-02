@@ -42,7 +42,19 @@ $pageTitle = 'Our Services - LaundryPro';
                 <div class="flex items-center space-x-4">
                     <a href="index.php" class="text-gray-600 hover:text-blue-600 transition">Home</a>
                     <a href="services.php" class="text-blue-600 font-semibold">Services</a>
+                    <?php if (auth()): ?>
+                    <a href="pages/customer/new-order.php" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition">
+                        <i class="fas fa-plus mr-2"></i>Create Order
+                    </a>
+                    <a href="dashboard.php" class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-lg transition">
+                        <i class="fas fa-tachometer-alt mr-2"></i>Dashboard
+                    </a>
+                    <a href="logout.php" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg transition">
+                        <i class="fas fa-sign-out-alt mr-2"></i>Logout
+                    </a>
+                    <?php else: ?>
                     <a href="login.php" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition">Login</a>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -163,10 +175,17 @@ $pageTitle = 'Our Services - LaundryPro';
                     </div>
 
                     <!-- Action Button -->
+                    <?php if (auth()): ?>
+                    <a href="../pages/customer/new-order.php" 
+                       class="block w-full bg-gradient-to-r from-<?= $info['color'] ?>-500 to-<?= $info['color'] ?>-600 hover:from-<?= $info['color'] ?>-600 hover:to-<?= $info['color'] ?>-700 text-white font-semibold py-3 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-center">
+                        <i class="fas fa-plus mr-2"></i>Add to Order
+                    </a>
+                    <?php else: ?>
                     <a href="login.php" 
                        class="block w-full bg-gradient-to-r from-<?= $info['color'] ?>-500 to-<?= $info['color'] ?>-600 hover:from-<?= $info['color'] ?>-600 hover:to-<?= $info['color'] ?>-700 text-white font-semibold py-3 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-center">
-                        <i class="fas fa-user-plus mr-2"></i>Get Started
+                        <i class="fas fa-user-plus mr-2"></i>Login to Order
                     </a>
+                    <?php endif; ?>
                 </div>
                 <?php endforeach; ?>
             </div>
@@ -206,6 +225,16 @@ $pageTitle = 'Our Services - LaundryPro';
             <h2 class="text-3xl font-bold text-gray-800 mb-6">Ready to Get Started?</h2>
             <p class="text-gray-600 text-lg mb-8">Join thousands of satisfied customers who trust LaundryPro with their laundry needs.</p>
             <div class="flex justify-center space-x-4">
+                <?php if (auth()): ?>
+                <a href="pages/customer/new-order.php" 
+                   class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transition transform hover:scale-105 shadow-lg hover:shadow-xl">
+                    <i class="fas fa-plus mr-2"></i>Create Order
+                </a>
+                <a href="pages/customer/my-orders.php" 
+                   class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transition transform hover:scale-105 shadow-lg hover:shadow-xl">
+                    <i class="fas fa-list mr-2"></i>My Orders
+                </a>
+                <?php else: ?>
                 <a href="login.php" 
                    class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transition transform hover:scale-105 shadow-lg hover:shadow-xl">
                     <i class="fas fa-user-plus mr-2"></i>Create Account
@@ -214,6 +243,7 @@ $pageTitle = 'Our Services - LaundryPro';
                    class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-8 py-4 rounded-xl font-semibold text-lg transition transform hover:scale-105 shadow-lg hover:shadow-xl">
                     <i class="fas fa-sign-in-alt mr-2"></i>Login
                 </a>
+                <?php endif; ?>
             </div>
         </div>
         <?php endif; ?>
