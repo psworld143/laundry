@@ -1,0 +1,8 @@
+[02-Mar-2026 05:06:06 UTC] reCAPTCHA bypassed: Using test keys in development mode
+[02-Mar-2026 05:06:06 UTC] Database error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mfa_enabled' in 'field list'
+[02-Mar-2026 05:06:06 UTC] PHP Fatal error:  Uncaught Exception: Database operation failed in C:\wamp64\www\laundry\security.php:319
+Stack trace:
+#0 C:\wamp64\www\laundry\mfa.php(240): Security->secureQuery('SELECT mfa_enab...', Array)
+#1 C:\wamp64\www\laundry\login.php(54): MFA->isMFAEnabled(17)
+#2 {main}
+  thrown in C:\wamp64\www\laundry\security.php on line 319

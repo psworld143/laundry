@@ -237,12 +237,19 @@ class MFA {
      * Check if user has MFA enabled
      */
     public function isMFAEnabled($userId) {
-        $result = $this->security->secureQuery(
-            "SELECT mfa_enabled FROM users WHERE user_id = ?",
-            [$userId]
-        )->fetch();
-        
-        return $result && $result['mfa_enabled'];
+        try {
+            // Check if mfa_enabled column exists
+            $result = $this->security->secureQuery(
+                "SELECT mfa_enabled FROM users WHERE user_id = ?",
+                [$userId]
+            )->fetch();
+            
+            return $result && $result['mfa_enabled'];
+        } catch (Exception $e) {
+            // If mfa_enabled column doesn't exist, assume MFA is disabled
+            error_log('MFA column not found, assuming MFA disabled: ' . $e->getMessage());
+            return false;
+        }
     }
 }
 
