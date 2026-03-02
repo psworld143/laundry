@@ -1,0 +1,328 @@
+[19-Oct-2025 10:26:40 Europe/Berlin] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in C:\xampp\htdocs\laundry\layout.php on line 19
+[19-Oct-2025 10:30:38 Europe/Berlin] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\laundry\layout.php on line 79
+[19-Oct-2025 10:41:30 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:41:30 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:41:30 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:41:30 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:41:30 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:05 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:05 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:05 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:05 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:05 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:14 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:14 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:14 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:14 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:14 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:27 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:27 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:27 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:27 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:44:27 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:48:20 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:48:20 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:48:20 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:48:20 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 10:48:20 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:08:16 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:08:16 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:08:16 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:08:16 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:08:16 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:14:46 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:14:46 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:14:46 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:14:46 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:14:46 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:21:53 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:21:53 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:21:53 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:21:53 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:21:53 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:22:33 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:22:33 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:22:33 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:22:33 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:22:33 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:22:58 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:22:58 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:22:58 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:22:58 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:22:58 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:23:20 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:23:20 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:23:20 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:23:20 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[19-Oct-2025 11:23:20 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\admin\dashboard.php on line 280
+[24-Oct-2025 08:56:04 Europe/Berlin] PHP Warning:  Undefined array key "service_name" in C:\xampp\htdocs\laundry\api\services.php on line 23
+[24-Oct-2025 08:56:04 Europe/Berlin] PHP Warning:  Undefined array key "description" in C:\xampp\htdocs\laundry\api\services.php on line 24
+[24-Oct-2025 08:56:04 Europe/Berlin] PHP Warning:  Undefined array key "base_price" in C:\xampp\htdocs\laundry\api\services.php on line 25
+[24-Oct-2025 08:56:04 Europe/Berlin] PHP Warning:  Undefined array key "service_type" in C:\xampp\htdocs\laundry\api\services.php on line 26
+[24-Oct-2025 08:56:17 Europe/Berlin] PHP Warning:  Undefined array key "service_name" in C:\xampp\htdocs\laundry\api\services.php on line 23
+[24-Oct-2025 08:56:17 Europe/Berlin] PHP Warning:  Undefined array key "description" in C:\xampp\htdocs\laundry\api\services.php on line 24
+[24-Oct-2025 08:56:17 Europe/Berlin] PHP Warning:  Undefined array key "base_price" in C:\xampp\htdocs\laundry\api\services.php on line 25
+[24-Oct-2025 08:56:17 Europe/Berlin] PHP Warning:  Undefined array key "service_type" in C:\xampp\htdocs\laundry\api\services.php on line 26
+[27-Oct-2025 13:19:42 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 14:08:56 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.driver_payments' doesn't exist in C:\xampp\htdocs\laundry\pages\driver\dashboard.php:18
+Stack trace:
+#0 C:\xampp\htdocs\laundry\pages\driver\dashboard.php(18): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\laundry\pages\driver\dashboard.php on line 18
+[27-Oct-2025 14:10:12 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.driver_payments' doesn't exist in C:\xampp\htdocs\laundry\pages\driver\dashboard.php:18
+Stack trace:
+#0 C:\xampp\htdocs\laundry\pages\driver\dashboard.php(18): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\laundry\pages\driver\dashboard.php on line 18
+[27-Oct-2025 14:10:13 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.driver_payments' doesn't exist in C:\xampp\htdocs\laundry\pages\driver\dashboard.php:18
+Stack trace:
+#0 C:\xampp\htdocs\laundry\pages\driver\dashboard.php(18): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\laundry\pages\driver\dashboard.php on line 18
+[27-Oct-2025 14:10:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.driver_payments' doesn't exist in C:\xampp\htdocs\laundry\pages\driver\dashboard.php:18
+Stack trace:
+#0 C:\xampp\htdocs\laundry\pages\driver\dashboard.php(18): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\laundry\pages\driver\dashboard.php on line 18
+[27-Oct-2025 14:10:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.driver_payments' doesn't exist in C:\xampp\htdocs\laundry\pages\driver\dashboard.php:18
+Stack trace:
+#0 C:\xampp\htdocs\laundry\pages\driver\dashboard.php(18): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\laundry\pages\driver\dashboard.php on line 18
+[27-Oct-2025 14:10:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.driver_payments' doesn't exist in C:\xampp\htdocs\laundry\pages\driver\dashboard.php:18
+Stack trace:
+#0 C:\xampp\htdocs\laundry\pages\driver\dashboard.php(18): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\laundry\pages\driver\dashboard.php on line 18
+[27-Oct-2025 14:10:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.driver_payments' doesn't exist in C:\xampp\htdocs\laundry\pages\driver\dashboard.php:18
+Stack trace:
+#0 C:\xampp\htdocs\laundry\pages\driver\dashboard.php(18): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\laundry\pages\driver\dashboard.php on line 18
+[27-Oct-2025 14:10:16 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.driver_payments' doesn't exist in C:\xampp\htdocs\laundry\pages\driver\dashboard.php:18
+Stack trace:
+#0 C:\xampp\htdocs\laundry\pages\driver\dashboard.php(18): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\laundry\pages\driver\dashboard.php on line 18
+[27-Oct-2025 14:10:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.driver_payments' doesn't exist in C:\xampp\htdocs\laundry\pages\driver\dashboard.php:18
+Stack trace:
+#0 C:\xampp\htdocs\laundry\pages\driver\dashboard.php(18): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\laundry\pages\driver\dashboard.php on line 18
+[27-Oct-2025 14:10:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.driver_payments' doesn't exist in C:\xampp\htdocs\laundry\pages\driver\dashboard.php:18
+Stack trace:
+#0 C:\xampp\htdocs\laundry\pages\driver\dashboard.php(18): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\laundry\pages\driver\dashboard.php on line 18
+[27-Oct-2025 14:12:45 Europe/Berlin] Driver Payments API Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.driver_payments' doesn't exist
+[27-Oct-2025 15:06:47 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 15:07:07 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 15:07:10 Europe/Berlin] Customer Inventory Fabric API Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.customer_inventory_fabric' doesn't exist
+[27-Oct-2025 15:07:34 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 15:07:42 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 15:07:50 Europe/Berlin] Customer Inventory Fabric API Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.customer_inventory_fabric' doesn't exist
+[27-Oct-2025 15:52:39 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 15:52:43 Europe/Berlin] Customer Inventory Fabric API Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.customer_inventory_fabric' doesn't exist
+[27-Oct-2025 15:53:17 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.customer_inventory_fabric' doesn't exist in C:\xampp\htdocs\laundry\pages\admin\fabrics.php:10
+Stack trace:
+#0 C:\xampp\htdocs\laundry\pages\admin\fabrics.php(10): PDO->query('SELECT COUNT(DI...')
+#1 {main}
+  thrown in C:\xampp\htdocs\laundry\pages\admin\fabrics.php on line 10
+[27-Oct-2025 16:13:14 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 16:19:33 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 16:19:44 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 16:20:03 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 16:23:04 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\laundry\config.php:70) in C:\xampp\htdocs\laundry\api\public_inventory.php on line 4
+[27-Oct-2025 16:23:04 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\xampp\htdocs\laundry\api\public_inventory.php on line 13
+[27-Oct-2025 16:26:38 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\laundry\config.php:70) in C:\xampp\htdocs\laundry\api\public_inventory.php on line 4
+[27-Oct-2025 16:26:38 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\xampp\htdocs\laundry\api\public_inventory.php on line 13
+[27-Oct-2025 16:31:23 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 16:31:23 Europe/Berlin] PHP Warning:  Undefined array key "transaction_id" in C:\xampp\htdocs\laundry\pages\customer\dashboard.php on line 241
+[27-Oct-2025 16:41:54 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\laundry\test_inventory_access.php on line 10
+[27-Oct-2025 16:45:31 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\laundry\test_customer_fabrics_access.php on line 9
+[27-Oct-2025 16:50:26 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\laundry\test_view_details.php on line 9
+[30-Oct-2025 16:01:47 Europe/Berlin] PHP Warning:  include(../../layout.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laundry\pages\receipt-viewer.php on line 515
+[30-Oct-2025 16:01:47 Europe/Berlin] PHP Warning:  include(): Failed opening '../../layout.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laundry\pages\receipt-viewer.php on line 515
+[30-Oct-2025 16:01:48 Europe/Berlin] PHP Warning:  include(../../layout.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laundry\pages\receipt-viewer.php on line 515
+[30-Oct-2025 16:01:48 Europe/Berlin] PHP Warning:  include(): Failed opening '../../layout.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laundry\pages\receipt-viewer.php on line 515
+[30-Oct-2025 16:01:49 Europe/Berlin] PHP Warning:  include(../../layout.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laundry\pages\receipt-viewer.php on line 515
+[30-Oct-2025 16:01:49 Europe/Berlin] PHP Warning:  include(): Failed opening '../../layout.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laundry\pages\receipt-viewer.php on line 515
+[30-Oct-2025 16:01:50 Europe/Berlin] PHP Warning:  include(../../layout.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\laundry\pages\receipt-viewer.php on line 515
+[30-Oct-2025 16:01:50 Europe/Berlin] PHP Warning:  include(): Failed opening '../../layout.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\laundry\pages\receipt-viewer.php on line 515
+[08-Nov-2025 08:30:27 Europe/Berlin] PHP Warning:  Uncaught PDOException: PDO::__construct(): Error while reading greeting packet. PID=13720 in C:\xampp\htdocs\laundry\config.php:33
+Stack trace:
+#0 C:\xampp\htdocs\laundry\config.php(33): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\laundry\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2006] MySQL server has gone away in C:\xampp\htdocs\laundry\config.php:33
+Stack trace:
+#0 C:\xampp\htdocs\laundry\config.php(33): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\laundry\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\laundry\config.php on line 33
+[08-Nov-2025 08:30:27 Europe/Berlin] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\laundry\config.php on line 38
+[08-Nov-2025 16:31:23 Europe/Berlin] PHP Warning:  Undefined array key "position" in C:\xampp\htdocs\laundry\pages\admin\inventory.php on line 5
+[15-Feb-2026 12:26:43 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\wamp64\www\laundry\security.php on line 48
+[15-Feb-2026 12:26:43 UTC] PHP Stack trace:
+[15-Feb-2026 12:26:43 UTC] PHP   1. {main}() C:\wamp64\www\laundry\index.php:0
+[15-Feb-2026 12:26:43 UTC] PHP   2. require_once() C:\wamp64\www\laundry\index.php:2
+[15-Feb-2026 12:26:43 UTC] PHP   3. require_once() C:\wamp64\www\laundry\config.php:27
+[15-Feb-2026 12:26:43 UTC] PHP   4. Security::getInstance() C:\wamp64\www\laundry\security.php:299
+[15-Feb-2026 12:26:43 UTC] PHP   5. Security->__construct() C:\wamp64\www\laundry\security.php:18
+[15-Feb-2026 12:26:43 UTC] PHP   6. Security->initializeSecurity() C:\wamp64\www\laundry\security.php:26
+[15-Feb-2026 12:26:43 UTC] PHP   7. Security->secureSession() C:\wamp64\www\laundry\security.php:34
+[15-Feb-2026 12:26:43 UTC] PHP   8. ini_set($option = 'session.cookie_httponly', $value = 1) C:\wamp64\www\laundry\security.php:48
+[15-Feb-2026 12:26:43 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\wamp64\www\laundry\security.php on line 49
+[15-Feb-2026 12:26:43 UTC] PHP Stack trace:
+[15-Feb-2026 12:26:43 UTC] PHP   1. {main}() C:\wamp64\www\laundry\index.php:0
+[15-Feb-2026 12:26:43 UTC] PHP   2. require_once() C:\wamp64\www\laundry\index.php:2
+[15-Feb-2026 12:26:43 UTC] PHP   3. require_once() C:\wamp64\www\laundry\config.php:27
+[15-Feb-2026 12:26:43 UTC] PHP   4. Security::getInstance() C:\wamp64\www\laundry\security.php:299
+[15-Feb-2026 12:26:43 UTC] PHP   5. Security->__construct() C:\wamp64\www\laundry\security.php:18
+[15-Feb-2026 12:26:43 UTC] PHP   6. Security->initializeSecurity() C:\wamp64\www\laundry\security.php:26
+[15-Feb-2026 12:26:43 UTC] PHP   7. Security->secureSession() C:\wamp64\www\laundry\security.php:34
+[15-Feb-2026 12:26:43 UTC] PHP   8. ini_set($option = 'session.cookie_secure', $value = FALSE) C:\wamp64\www\laundry\security.php:49
+[15-Feb-2026 12:26:43 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\wamp64\www\laundry\security.php on line 50
+[15-Feb-2026 12:26:43 UTC] PHP Stack trace:
+[15-Feb-2026 12:26:43 UTC] PHP   1. {main}() C:\wamp64\www\laundry\index.php:0
+[15-Feb-2026 12:26:43 UTC] PHP   2. require_once() C:\wamp64\www\laundry\index.php:2
+[15-Feb-2026 12:26:43 UTC] PHP   3. require_once() C:\wamp64\www\laundry\config.php:27
+[15-Feb-2026 12:26:43 UTC] PHP   4. Security::getInstance() C:\wamp64\www\laundry\security.php:299
+[15-Feb-2026 12:26:43 UTC] PHP   5. Security->__construct() C:\wamp64\www\laundry\security.php:18
+[15-Feb-2026 12:26:43 UTC] PHP   6. Security->initializeSecurity() C:\wamp64\www\laundry\security.php:26
+[15-Feb-2026 12:26:43 UTC] PHP   7. Security->secureSession() C:\wamp64\www\laundry\security.php:34
+[15-Feb-2026 12:26:43 UTC] PHP   8. ini_set($option = 'session.use_strict_mode', $value = 1) C:\wamp64\www\laundry\security.php:50
+[15-Feb-2026 12:26:43 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\wamp64\www\laundry\security.php on line 51
+[15-Feb-2026 12:26:43 UTC] PHP Stack trace:
+[15-Feb-2026 12:26:43 UTC] PHP   1. {main}() C:\wamp64\www\laundry\index.php:0
+[15-Feb-2026 12:26:43 UTC] PHP   2. require_once() C:\wamp64\www\laundry\index.php:2
+[15-Feb-2026 12:26:43 UTC] PHP   3. require_once() C:\wamp64\www\laundry\config.php:27
+[15-Feb-2026 12:26:43 UTC] PHP   4. Security::getInstance() C:\wamp64\www\laundry\security.php:299
+[15-Feb-2026 12:26:43 UTC] PHP   5. Security->__construct() C:\wamp64\www\laundry\security.php:18
+[15-Feb-2026 12:26:43 UTC] PHP   6. Security->initializeSecurity() C:\wamp64\www\laundry\security.php:26
+[15-Feb-2026 12:26:43 UTC] PHP   7. Security->secureSession() C:\wamp64\www\laundry\security.php:34
+[15-Feb-2026 12:26:43 UTC] PHP   8. ini_set($option = 'session.cookie_samesite', $value = 'Strict') C:\wamp64\www\laundry\security.php:51
+[15-Feb-2026 12:26:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\laundry\security.php:49) in C:\wamp64\www\laundry\config.php on line 55
+[15-Feb-2026 12:26:43 UTC] PHP Stack trace:
+[15-Feb-2026 12:26:43 UTC] PHP   1. {main}() C:\wamp64\www\laundry\index.php:0
+[15-Feb-2026 12:26:43 UTC] PHP   2. redirect($path = 'login.php') C:\wamp64\www\laundry\index.php:3
+[15-Feb-2026 12:26:43 UTC] PHP   3. header($header = 'Location: /laundry/login.php') C:\wamp64\www\laundry\config.php:55
+[15-Feb-2026 12:26:57 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\wamp64\www\laundry\security.php on line 48
+[15-Feb-2026 12:26:57 UTC] PHP Stack trace:
+[15-Feb-2026 12:26:57 UTC] PHP   1. {main}() C:\wamp64\www\laundry\index.php:0
+[15-Feb-2026 12:26:57 UTC] PHP   2. require_once() C:\wamp64\www\laundry\index.php:2
+[15-Feb-2026 12:26:57 UTC] PHP   3. require_once() C:\wamp64\www\laundry\config.php:27
+[15-Feb-2026 12:26:57 UTC] PHP   4. Security::getInstance() C:\wamp64\www\laundry\security.php:299
+[15-Feb-2026 12:26:57 UTC] PHP   5. Security->__construct() C:\wamp64\www\laundry\security.php:18
+[15-Feb-2026 12:26:57 UTC] PHP   6. Security->initializeSecurity() C:\wamp64\www\laundry\security.php:26
+[15-Feb-2026 12:26:57 UTC] PHP   7. Security->secureSession() C:\wamp64\www\laundry\security.php:34
+[15-Feb-2026 12:26:57 UTC] PHP   8. ini_set($option = 'session.cookie_httponly', $value = 1) C:\wamp64\www\laundry\security.php:48
+[15-Feb-2026 12:26:57 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\wamp64\www\laundry\security.php on line 49
+[15-Feb-2026 12:26:57 UTC] PHP Stack trace:
+[15-Feb-2026 12:26:57 UTC] PHP   1. {main}() C:\wamp64\www\laundry\index.php:0
+[15-Feb-2026 12:26:57 UTC] PHP   2. require_once() C:\wamp64\www\laundry\index.php:2
+[15-Feb-2026 12:26:57 UTC] PHP   3. require_once() C:\wamp64\www\laundry\config.php:27
+[15-Feb-2026 12:26:57 UTC] PHP   4. Security::getInstance() C:\wamp64\www\laundry\security.php:299
+[15-Feb-2026 12:26:57 UTC] PHP   5. Security->__construct() C:\wamp64\www\laundry\security.php:18
+[15-Feb-2026 12:26:57 UTC] PHP   6. Security->initializeSecurity() C:\wamp64\www\laundry\security.php:26
+[15-Feb-2026 12:26:57 UTC] PHP   7. Security->secureSession() C:\wamp64\www\laundry\security.php:34
+[15-Feb-2026 12:26:57 UTC] PHP   8. ini_set($option = 'session.cookie_secure', $value = FALSE) C:\wamp64\www\laundry\security.php:49
+[15-Feb-2026 12:26:57 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\wamp64\www\laundry\security.php on line 50
+[15-Feb-2026 12:26:57 UTC] PHP Stack trace:
+[15-Feb-2026 12:26:57 UTC] PHP   1. {main}() C:\wamp64\www\laundry\index.php:0
+[15-Feb-2026 12:26:57 UTC] PHP   2. require_once() C:\wamp64\www\laundry\index.php:2
+[15-Feb-2026 12:26:57 UTC] PHP   3. require_once() C:\wamp64\www\laundry\config.php:27
+[15-Feb-2026 12:26:57 UTC] PHP   4. Security::getInstance() C:\wamp64\www\laundry\security.php:299
+[15-Feb-2026 12:26:57 UTC] PHP   5. Security->__construct() C:\wamp64\www\laundry\security.php:18
+[15-Feb-2026 12:26:57 UTC] PHP   6. Security->initializeSecurity() C:\wamp64\www\laundry\security.php:26
+[15-Feb-2026 12:26:57 UTC] PHP   7. Security->secureSession() C:\wamp64\www\laundry\security.php:34
+[15-Feb-2026 12:26:57 UTC] PHP   8. ini_set($option = 'session.use_strict_mode', $value = 1) C:\wamp64\www\laundry\security.php:50
+[15-Feb-2026 12:26:57 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\wamp64\www\laundry\security.php on line 51
+[15-Feb-2026 12:26:57 UTC] PHP Stack trace:
+[15-Feb-2026 12:26:57 UTC] PHP   1. {main}() C:\wamp64\www\laundry\index.php:0
+[15-Feb-2026 12:26:57 UTC] PHP   2. require_once() C:\wamp64\www\laundry\index.php:2
+[15-Feb-2026 12:26:57 UTC] PHP   3. require_once() C:\wamp64\www\laundry\config.php:27
+[15-Feb-2026 12:26:57 UTC] PHP   4. Security::getInstance() C:\wamp64\www\laundry\security.php:299
+[15-Feb-2026 12:26:57 UTC] PHP   5. Security->__construct() C:\wamp64\www\laundry\security.php:18
+[15-Feb-2026 12:26:57 UTC] PHP   6. Security->initializeSecurity() C:\wamp64\www\laundry\security.php:26
+[15-Feb-2026 12:26:57 UTC] PHP   7. Security->secureSession() C:\wamp64\www\laundry\security.php:34
+[15-Feb-2026 12:26:57 UTC] PHP   8. ini_set($option = 'session.cookie_samesite', $value = 'Strict') C:\wamp64\www\laundry\security.php:51
+[15-Feb-2026 12:26:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\laundry\security.php:49) in C:\wamp64\www\laundry\config.php on line 55
+[15-Feb-2026 12:26:57 UTC] PHP Stack trace:
+[15-Feb-2026 12:26:57 UTC] PHP   1. {main}() C:\wamp64\www\laundry\index.php:0
+[15-Feb-2026 12:26:57 UTC] PHP   2. redirect($path = 'login.php') C:\wamp64\www\laundry\index.php:3
+[15-Feb-2026 12:26:57 UTC] PHP   3. header($header = 'Location: /laundry/login.php') C:\wamp64\www\laundry\config.php:55
+[15-Feb-2026 12:28:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\wamp64\www\laundry\security.php:246
+Stack trace:
+#0 C:\wamp64\www\laundry\login.php(28): Security->secureQuery('SELECT * FROM u...', Array)
+#1 {main}
+  thrown in C:\wamp64\www\laundry\security.php on line 246
+[15-Feb-2026 12:29:37 UTC] Security Event: {"timestamp":"2026-02-15 12:29:37","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36","user_id":1,"event":"LOGIN_SUCCESS","details":{"user_id":1,"username":"admin"}}
+[15-Feb-2026 12:29:47 UTC] PHP Warning:  Undefined array key "csrf_token" in C:\wamp64\www\laundry\security.php on line 114
+[15-Feb-2026 12:29:47 UTC] PHP Stack trace:
+[15-Feb-2026 12:29:47 UTC] PHP   1. {main}() C:\wamp64\www\laundry\login.php:0
+[15-Feb-2026 12:29:47 UTC] PHP   2. getCSRFToken() C:\wamp64\www\laundry\login.php:142
+[15-Feb-2026 12:29:47 UTC] PHP   3. Security->getCSRFToken() C:\wamp64\www\laundry\security.php:329
+[15-Feb-2026 12:29:47 UTC] PHP Warning:  Undefined array key "csrf_token" in C:\wamp64\www\laundry\security.php on line 114
+[15-Feb-2026 12:29:47 UTC] PHP Stack trace:
+[15-Feb-2026 12:29:47 UTC] PHP   1. {main}() C:\wamp64\www\laundry\login.php:0
+[15-Feb-2026 12:29:47 UTC] PHP   2. getCSRFToken() C:\wamp64\www\laundry\login.php:173
+[15-Feb-2026 12:29:47 UTC] PHP   3. Security->getCSRFToken() C:\wamp64\www\laundry\security.php:329
+[15-Feb-2026 12:30:41 UTC] Security Event: {"timestamp":"2026-02-15 12:30:41","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36","user_id":1,"event":"LOGIN_SUCCESS","details":{"user_id":1,"username":"admin"}}
+[18-Feb-2026 08:15:34 UTC] Security Event: {"timestamp":"2026-02-18 08:15:34","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"admin","ip":"::1"}}
+[18-Feb-2026 08:15:34 UTC] PHP Fatal error:  Uncaught Error: Call to private method Security::getRateLimitData() from global scope in C:\wamp64\www\laundry\login.php:45
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\laundry\login.php on line 45
+[18-Feb-2026 09:36:28 UTC] Security Event: {"timestamp":"2026-02-18 09:36:28","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36","user_id":1,"event":"LOGIN_SUCCESS","details":{"user_id":1,"username":"admin"}}
+[22-Feb-2026 11:38:21 UTC] Security Event: {"timestamp":"2026-02-22 11:38:21","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":1,"event":"LOGIN_SUCCESS","details":{"user_id":1,"username":"admin"}}
+[22-Feb-2026 11:42:14 UTC] Security Event: {"timestamp":"2026-02-22 11:42:14","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"sorillajerico01@gmail.com","ip":"::1"}}
+[22-Feb-2026 11:42:14 UTC] PHP Fatal error:  Uncaught Error: Call to private method Security::getRateLimitData() from global scope in C:\wamp64\www\laundry\login.php:45
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\laundry\login.php on line 45
+[22-Feb-2026 11:43:49 UTC] Security Event: {"timestamp":"2026-02-22 11:43:49","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"sorillajerico01@gmail.com","ip":"::1"}}
+[22-Feb-2026 11:46:25 UTC] Security Event: {"timestamp":"2026-02-22 11:46:25","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"John Doe","ip":"::1"}}
+[22-Feb-2026 11:47:33 UTC] Security Event: {"timestamp":"2026-02-22 11:47:33","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"Robert Martinez","ip":"::1"}}
+[22-Feb-2026 11:48:12 UTC] Security Event: {"timestamp":"2026-02-22 11:48:12","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"driver","ip":"::1"}}
+[22-Feb-2026 12:34:44 UTC] Security Event: {"timestamp":"2026-02-22 12:34:44","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"admin","ip":"::1"}}
+[22-Feb-2026 12:34:56 UTC] Security Event: {"timestamp":"2026-02-22 12:34:56","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"admin","ip":"::1"}}
+[22-Feb-2026 12:40:54 UTC] Security Event: {"timestamp":"2026-02-22 12:40:54","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":17,"event":"LOGIN_SUCCESS","details":{"user_id":17,"username":"admin"}}
+[22-Feb-2026 12:45:36 UTC] Security Event: {"timestamp":"2026-02-22 12:45:36","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"REGISTRATION_FAILURE","details":{"username":"Jericho","email":"sorillajerico01@gmail.com","error":"SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Jericho' for key 'users.username'","ip":"::1"}}
+[22-Feb-2026 12:46:19 UTC] Security Event: {"timestamp":"2026-02-22 12:46:19","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"sorillajerico01@gmail.com","ip":"::1"}}
+[22-Feb-2026 12:53:34 UTC] Database error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sorillajerico01@gmail.com' for key 'users.email'
+[22-Feb-2026 12:53:34 UTC] PHP Fatal error:  Uncaught Exception: Database operation failed in C:\wamp64\www\laundry\security.php:273
+Stack trace:
+#0 C:\wamp64\www\laundry\login.php(96): Security->secureQuery('INSERT INTO use...', Array)
+#1 {main}
+  thrown in C:\wamp64\www\laundry\security.php on line 273
+[22-Feb-2026 12:55:18 UTC] Database error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sorillajerico01@gmail.com' for key 'users.email'
+[22-Feb-2026 12:55:18 UTC] Security Event: {"timestamp":"2026-02-22 12:55:18","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"REGISTRATION_FAILURE","details":{"username":"Jayson","email":"sorillajerico01@gmail.com","error":"Database operation failed","ip":"::1"}}
+[22-Feb-2026 13:01:31 UTC] Database error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Jericho' for key 'users.username'
+[22-Feb-2026 13:01:31 UTC] Security Event: {"timestamp":"2026-02-22 13:01:31","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"REGISTRATION_FAILURE","details":{"username":"Jericho","email":"jericosorilla4@gmail.com","error":"Database operation failed","ip":"::1"}}
+[22-Feb-2026 13:02:17 UTC] Security Event: {"timestamp":"2026-02-22 13:02:17","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"REGISTRATION_SUCCESS","details":{"username":"jayson","email":"jericosorilla4@gmail.com","ip":"::1"}}
+[22-Feb-2026 13:02:39 UTC] Security Event: {"timestamp":"2026-02-22 13:02:39","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":23,"event":"LOGIN_SUCCESS","details":{"user_id":23,"username":"jericosorilla4@gmail.com"}}
+[22-Feb-2026 13:09:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in C:\wamp64\www\laundry\add_detergents.php:26
+Stack trace:
+#0 C:\wamp64\www\laundry\add_detergents.php(26): PDO->prepare('\n            IN...')
+#1 {main}
+  thrown in C:\wamp64\www\laundry\add_detergents.php on line 26
+[22-Feb-2026 13:41:05 UTC] Custom Orders API Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.custom_orders' doesn't exist
+[22-Feb-2026 13:41:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.custom_orders' doesn't exist in C:\wamp64\www\laundry\pages\customer\orders.php:22
+Stack trace:
+#0 C:\wamp64\www\laundry\pages\customer\orders.php(22): PDO->prepare('\r\n    SELECT co...')
+#1 {main}
+  thrown in C:\wamp64\www\laundry\pages\customer\orders.php on line 22
+[22-Feb-2026 13:43:36 UTC] Security Event: {"timestamp":"2026-02-22 13:43:36","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":17,"event":"LOGIN_SUCCESS","details":{"user_id":17,"username":"admin"}}
+[22-Feb-2026 13:43:55 UTC] Admin Fabrics API Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.admin_fabrics' doesn't exist
+[22-Feb-2026 13:45:57 UTC] Security Event: {"timestamp":"2026-02-22 13:45:57","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36 Edg\/145.0.0.0","user_id":23,"event":"LOGIN_SUCCESS","details":{"user_id":23,"username":"jericosorilla4@gmail.com"}}
+[26-Feb-2026 17:09:07 UTC] Security Event: {"timestamp":"2026-02-26 17:09:07","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"admin","ip":"::1"}}
+[26-Feb-2026 17:09:27 UTC] Security Event: {"timestamp":"2026-02-26 17:09:27","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"admin","ip":"::1"}}
+[26-Feb-2026 17:09:39 UTC] Security Event: {"timestamp":"2026-02-26 17:09:39","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":17,"event":"LOGIN_SUCCESS","details":{"user_id":17,"username":"admin"}}
+[26-Feb-2026 17:09:45 UTC] Admin Fabrics API Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'laundry.admin_fabrics' doesn't exist
+[26-Feb-2026 17:11:36 UTC] Security Event: {"timestamp":"2026-02-26 17:11:36","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36 Edg\/145.0.0.0","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"jericosorilla4@gmail.com","ip":"::1"}}
+[26-Feb-2026 17:12:21 UTC] Security Event: {"timestamp":"2026-02-26 17:12:21","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36 Edg\/145.0.0.0","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"jericosorilla4@gmail.com","ip":"::1"}}
+[01-Mar-2026 09:23:37 UTC] Security Event: {"timestamp":"2026-03-01 09:23:37","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":17,"event":"LOGIN_SUCCESS","details":{"user_id":17,"username":"admin"}}
+[01-Mar-2026 09:32:53 UTC] Security Event: {"timestamp":"2026-03-01 09:32:53","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":null,"event":"LOGIN_FAILURE","details":{"username":"admin","ip":"::1"}}
+[01-Mar-2026 09:33:02 UTC] Security Event: {"timestamp":"2026-03-01 09:33:02","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/145.0.0.0 Safari\/537.36","user_id":17,"event":"LOGIN_SUCCESS","details":{"user_id":17,"username":"admin"}}
